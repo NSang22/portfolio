@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
 
         {/* Replace this text with your short bio or tagline */}
         <p className="text-gray-400 max-w-lg mx-auto">
-          I'm a Computer Science student at the University of Florida with a focus on AI, machine learning, and full-stack development. Aspiring to eventually work in industry research.
+          a Computer Science student at the University of Florida with a focus on AI, machine learning, and full-stack development. Aspiring to eventually work in industry research.
         </p>
 
         {/* Customize your buttons and links here */}

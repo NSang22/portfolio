@@ -50,7 +50,7 @@ const EducationSection: React.FC = () => {
                   National Merit Scholar
                 </span>
                 <span className="px-3 py-1 text-sm rounded-md border border-[#04D9FF]/30 bg-[#04D9FF]/10 text-white">
-                  Dean's List
+                  Deans List
                 </span>
               </div>
             </div>
