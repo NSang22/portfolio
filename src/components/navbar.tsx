@@ -21,13 +21,18 @@ const Navbar: React.FC = () => {
           Nikhil Sangamkar
         </Link>
 
-        {/* Update the links below to match your sections */}
         <div className="flex space-x-8 text-gray-300 font-medium">
           <Link href="#hero" className="hover:text-[#04D9FF] transition-all">
             home
           </Link>
           <Link href="#experience" className="hover:text-[#04D9FF] transition-all">
             experience
+          </Link>
+          <Link href="#skills" className="hover:text-[#04D9FF] transition-all">
+            skills
+          </Link>
+          <Link href="#education" className="hover:text-[#04D9FF] transition-all">
+            education
           </Link>
           <Link href="#projects" className="hover:text-[#04D9FF] transition-all">
             projects
@@ -39,6 +44,6 @@ const Navbar: React.FC = () => {
       </div>
     </motion.nav>
   );
-};
+}
 
 export default Navbar;

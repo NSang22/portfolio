@@ -47,7 +47,7 @@ const ExperienceSection: React.FC = () => {
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          my <span className="text-[#04D9FF]">experience</span>
+          <span className="text-[#04D9FF]">experience</span>
         </h2>
       </ScrollReveal>
 

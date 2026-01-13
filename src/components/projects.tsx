@@ -9,17 +9,43 @@ import ScrollReveal from "./scrollReveal";
 const projects = [
   {
     id: 1,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
+    title: "The Genome Project",
+    description:
+      "A disease prediction tool leveraging the Human Phenotype Ontology (HPO) database, mapping patient-reported symptoms to standardized medical terms and disease annotations.",
     image: "/images/thumbnaildora.png",
-    link: "https://yourprojectlink.com",
+    technologies: ["Flask", "React", "Phrank", "HPO Database"],
+    demoLink: "#",
+    githubLink: "#",
   },
   {
     id: 2,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
+    title: "Firewatch",
+    description:
+      "A wildfire tracking platform designed for firefighters, authorities, and communities across the United States using the XWeather API to dynamically fetch fire reports.",
     image: "/images/thumbnaildora.png",
-    link: "https://yourprojectlink.com",
+    technologies: ["MongoDB", "React", "Node.js", "Express.js", "Auth0"],
+    demoLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: 3,
+    title: "Florida Resource Map",
+    description:
+      "Data pipelines for the Florida Resource Map using LangChain and Retrieval-Augmented Generation to automate data collection and validation from nonprofits.",
+    image: "/images/thumbnaildora.png",
+    technologies: ["LangChain", "Python", "Web Scraping", "RAG"],
+    demoLink: "floridaresourcemap.org",
+    githubLink: "#",
+  },
+  {
+    id: 4,
+    title: "Project ALIGN",
+    description:
+      "Curriculum alignment evaluations for AI-generated stories using machine learning and statistical techniques to assess alignment with the UF Literacy Institute Foundations curriculum.",
+    image: "/images/thumbnaildora.png",
+    technologies: ["XGBoost", "PCA", "Python", "Machine Learning"],
+    demoLink: "#",
+    githubLink: "#",
   },
 ];
 
@@ -31,7 +57,7 @@ const Projects: React.FC = () => {
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          my <span className="text-[#04D9FF]">projects</span>
+          <span className="text-[#04D9FF]">projects</span>
         </h2>
       </ScrollReveal>
 
