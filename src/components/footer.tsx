@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="bg-black text-gray-400 text-center py-8 border-t border-gray-800"
+      className="text-gray-400 text-center py-8 border-t border-gray-800"
     >
       <p>
         © {new Date().getFullYear()}{" "}

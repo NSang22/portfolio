@@ -24,7 +24,7 @@ const ContactForm: React.FC = () => {
   return (
     <section 
       id="contact" 
-      className="min-h-screen bg-black text-white px-8 md:px-16 py-24"
+      className="min-h-screen text-white px-8 md:px-16 py-24"
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">

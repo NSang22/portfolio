@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-black text-white px-8 md:px-16 overflow-hidden"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center text-white px-8 md:px-16 overflow-hidden"
     >
       {/* ===================== LEFT SIDE: TEXT ===================== */}
       <motion.div
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       >
         {/* Replace your name here */}
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-          hi, i&apos;m <span className="text-[#04D9FF]">your name</span>
+          hi, i&apos;m <span className="text-[#04D9FF]">Nikhil</span>
         </h1>
 
         {/* Replace your role or title here */}
