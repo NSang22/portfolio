@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Portfolio", // Change this to your name
-  description: "My 3D Portfolio website", // Change description
+  title: "Nikhil Sangamkar", // Change this to your name
+  description: "Software Engineer", // Change description
 };
 
 export default function RootLayout({

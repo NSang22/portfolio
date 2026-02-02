@@ -104,16 +104,6 @@ const Projects: React.FC = () => {
                 </div>
               </div>
               <div className="flex gap-3">
-                {project.demoLink && (
-                  <a
-                    href={project.demoLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#111827] hover:underline text-sm"
-                  >
-                    Live Demo
-                  </a>
-                )}
                 {project.githubLink && (
                   <a
                     href={project.githubLink}
