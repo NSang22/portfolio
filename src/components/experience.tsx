@@ -11,20 +11,21 @@ const ExperienceSection: React.FC = () => {
       location: "Gainesville, FL",
       period: "Oct. 2024 – Present",
       description: [
-        "Developing and optimizing data pipelines for the Florida Resource Map using LangChain and Retrieval-Augmented Generation to automate data collection and validation from 500+ nonprofits.",
-        "Implementing web scraping and writing scripts to extract and clean nonprofit organization data, improving resource accuracy and accessibility.",
-        "Engineering a validation system to verify LLM-generated information by cross-referencing sources, reducing misinformation and enhancing data reliability."
+        "Leading the backend team of 6 developers on the Florida Resource Map, owning technical roadmap, task delegation, and cross-team coordination to deliver scalable backend systems.",
+        "Translate product requirements into backend execution, guiding API design, data workflows, and technical decisions.",
+        "Previously built LangChain + RAG data pipelines automating data collection and validation for 500+ nonprofits, improving data accuracy and reliability."
       ]
     },
     {
       title: "Scrum Master and Team Lead, Project ALIGN",
       company: "Virtual Learning Lab, University of Florida",
       location: "Gainesville, FL",
-      period: "Jan. 2025 – Present",
+      period: "Jan. 2025 – May 2026",
       description: [
-        "Leading the development of curriculum alignment evaluations for AI-generated stories using Agile methodologies to coordinate team workflows and ensure progress.",
-        "Implementing machine learning and statistical techniques (clustering, XGBoost regression and classification, principal component analysis) to assess text alignment with the UF Literacy Institute Foundations curriculum.",
-        "Presented work at the UF Spring Symposium."
+        "Led the development of curriculum alignment evaluations for AI-generated stories using Agile methodologies to coordinate team workflows and ensure progress.",
+        "Implemented machine learning and statistical techniques (clustering, XGBoost, principal component analysis) to assess text alignment with the UF Literacy Institute Foundations curriculum.",
+        "Used Scikit-learn libraries to create regression and classification models for alignment over 1000+ stories, found 74% alignment.",
+        "Presented findings at the Spring Symposium."
       ]
     },
     {
@@ -46,8 +47,8 @@ const ExperienceSection: React.FC = () => {
       className="min-h-screen text-white px-8 md:px-16 py-24"
     >
       <ScrollReveal>
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-          <span className="text-[#111827]">experience</span>
+        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+          experience
         </h2>
       </ScrollReveal>
 
