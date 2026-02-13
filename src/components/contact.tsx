@@ -17,8 +17,11 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`Thanks ${formData.name}, your message has been sent!`);
-    // TODO: Replace this with actual form submission logic (e.g., emailjs, API route)
+    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
+    );
+    window.location.href = `mailto:nsangamkar1222@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (

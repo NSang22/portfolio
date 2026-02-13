@@ -57,7 +57,7 @@ const ExperienceSection: React.FC = () => {
             <div className="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-[#111827]/20 transition-all">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-[#111827] mb-1">
+                  <h3 className="text-2xl font-bold text-white mb-1">
                     {exp.title}
                   </h3>
                   <p className="text-lg text-gray-300 mb-1">
