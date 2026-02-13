@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="fixed top-0 left-0 w-full z-50 bg-cyan-950/70 backdrop-blur-lg text-white border-b border-gray-800"
+      className="fixed top-0 left-0 w-full z-50 bg-[#041e2b] backdrop-blur-lg text-white border-b border-gray-800"
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         <Link href="/" className="text-xl md:text-2xl font-bold text-white">
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-cyan-950/90 backdrop-blur-lg border-t border-gray-800"
+            className="md:hidden bg-[#041e2b] backdrop-blur-lg border-t border-gray-800"
           >
             <div className="flex flex-col px-6 py-4 space-y-4">
               {links.map((link) => (

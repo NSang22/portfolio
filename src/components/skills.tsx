@@ -14,7 +14,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, items }) => {
       transition={{ duration: 0.6 }}
       className="rounded-xl border border-gray-800 bg-cyan-950/30 backdrop-blur-lg p-6 shadow-lg"
     >
-      <h3 className="text-xl font-semibold text-[#111827]">{title}</h3>
+      <h3 className="text-xl font-semibold text-white">{title}</h3>
       <ul className="mt-4 flex flex-wrap gap-3">
         {items.map((item) => (
           <li
@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
           transition={{ duration: 0.7 }}
           className="text-4xl md:text-5xl font-bold text-white text-center drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
         >
-          <span className="text-[#111827]">skills</span>
+          <span className="text-white">skills</span>
         </motion.h2>
 
         <div className="mt-8 grid md:grid-cols-3 gap-8">

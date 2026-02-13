@@ -9,7 +9,7 @@ const EducationSection: React.FC = () => {
     <section id="education" className="min-h-screen text-white px-8 md:px-16 py-24">
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-            <span className="text-[#111827]">education</span>
+            <span className="text-white">education</span>
         </h2>
       </ScrollReveal>
 

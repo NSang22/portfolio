@@ -31,7 +31,7 @@ const ContactForm: React.FC = () => {
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-          get in <span className="text-[#111827]">touch</span>
+          get in <span className="text-white">touch</span>
         </h2>
       </ScrollReveal>
 

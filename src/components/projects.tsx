@@ -14,28 +14,51 @@ const projects = [
     demoLink: "https://www.floridaresourcemap.org/",
   },
   {
-    id: 4,
-    title: "Project ALIGN",
+    id: 2,
+    title: "BMO Care",
     description:
-      "Curriculum alignment evaluations for AI-generated stories using machine learning and statistical techniques to assess alignment with the UF Literacy Institute Foundations curriculum.",
-    technologies: ["XGBoost", "PCA", "Python", "Machine Learning"],
+      "BMO Care is an AI-powered pediatric hospital companion that provides 24/7 emotional support to children while giving nurses real-time insights into vitals, pain reports, and emotional state. By combining voice AI, computer vision, and wearable health data, it bridges the gap between young patients, families, and clinical staff.",
+    technologies: ["Python", "Raspberry Pi", "React", "Computer Vision", "NLP"],
+    demoLink: "#",
+    githubLink: "#",
   },
   {
-    id: 5,
+    id: 3,
     title: "DataSmart",
     description:
-      "A data-driven decision support tool that transforms raw public datasets into actionable insights through cleaning, aggregation, and analysis pipelines. The project emphasizes data quality, interpretability, and practical analytics over black-box modeling.",
+      "DataSmart is an AI-powered data marketplace that lets users test datasets with natural-language queries before buying. Built on Solana micropayments and automatic data validation, it makes buying and selling data transparent and secure.",
     technologies: ["Python", "Pandas", "SQL", "Data Analysis"],
   },
   {
-    id: 7,
+    id: 4,
     title: "AORA",
     description:
       "An AI-powered productivity assistant that unifies calendars, email, tasks, and meetings into a single conversational interface. Features a modular backend architecture enabling natural-language actions like scheduling, reminders, and follow-ups across multiple services.",
     technologies: ["Python", "NLP", "REST APIs", "LLMs"],
   },
   {
-    id: 3,
+    id: 5,
+    title: "Project ALIGN",
+    description:
+      "Curriculum alignment evaluations for AI-generated stories using machine learning and statistical techniques to assess alignment with the UF Literacy Institute Foundations curriculum.",
+    technologies: ["XGBoost", "PCA", "Python", "Machine Learning"],
+  },
+  {
+    id: 6,
+    title: "Bioinformatics Project – Zika/Dengue Prior Exposure",
+    description:
+      "A computational biology study analyzing how prior dengue exposure influences immune response to Zika infection. Involves data analysis and modeling to identify patterns in cross-reactive immunity using biological and clinical datasets.",
+    technologies: ["R", "Python", "Bioinformatics", "Statistical Modeling"],
+  },
+  {
+    id: 7,
+    title: "Skylink",
+    description:
+      "A C++ flight-route planner that computes optimal itineraries using graph algorithms (A* and Dijkstra) over large-scale airline and delay datasets. The system ranks routes by total travel time and delay risk using real-world aviation data.",
+    technologies: ["C++", "A*", "Dijkstra", "Graph Algorithms"],
+  },
+  {
+    id: 8,
     title: "The Genome Project",
     description:
       "A disease prediction and diagnosis tool leveraging the Human Phenotype Ontology (HPO) database, mapping patient-reported symptoms to standardized medical terms and disease annotations.",
@@ -44,27 +67,13 @@ const projects = [
     githubLink: "#",
   },
   {
-    id: 6,
-    title: "Skylink",
-    description:
-      "A C++ flight-route planner that computes optimal itineraries using graph algorithms (A* and Dijkstra) over large-scale airline and delay datasets. The system ranks routes by total travel time and delay risk using real-world aviation data.",
-    technologies: ["C++", "A*", "Dijkstra", "Graph Algorithms"],
-  },
-  {
-    id: 2,
+    id: 9,
     title: "Firewatch",
     description:
       "A wildfire tracking platform designed for firefighters, authorities, and communities across the United States using the XWeather API to dynamically fetch fire reports.",
     technologies: ["MongoDB", "React", "Node.js", "Express.js", "Auth0"],
     demoLink: "https://devpost.com/software/firewatch-1gwft9",
     githubLink: "https://github.com/Seedname/SwamphacksX",
-  },
-  {
-    id: 8,
-    title: "Bioinformatics Project – Zika/Dengue Prior Exposure",
-    description:
-      "A computational biology study analyzing how prior dengue exposure influences immune response to Zika infection. Involves data analysis and modeling to identify patterns in cross-reactive immunity using biological and clinical datasets.",
-    technologies: ["R", "Python", "Bioinformatics", "Statistical Modeling"],
   },
 ];
 
@@ -76,7 +85,7 @@ const Projects: React.FC = () => {
     >
       <ScrollReveal>
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-          <span className="text-[#111827]">projects</span>
+          <span className="text-white">projects</span>
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 mx-auto">
@@ -89,7 +98,7 @@ const Projects: React.FC = () => {
                 <h3 className="text-base md:text-lg font-semibold mb-1">
                   {project.title}
                 </h3>
-                <p className="text-gray-400 text-sm md:text-base line-clamp-6 mb-2">
+                <p className="text-gray-400 text-sm md:text-base mb-2">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-1 mb-2">

@@ -67,7 +67,12 @@ const Hero: React.FC = () => {
 
         {/* Replace this text with your short bio or tagline */}
         <p className="text-white max-w-lg mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-          a Computer Science student at the University of Florida with a focus on AI, machine learning, and full-stack development. Aspiring to eventually work in industry research.
+          I'm a Computer Science student at the University of Florida with a focus on AI, full-stack development, and biotech. 
+        </p>
+        <p>
+          Currently, I'm a product manager at Florida Community Innovation, leading backend development for the Florida Resource Map, a platform connecting Floridians to local resources. 
+          I'm passionate about leveraging technology to solve real-world problems and create impactful solutions in healthcare, education, policy, and much more.
+
         </p>
 
         {/* Customize your buttons and links here */}
