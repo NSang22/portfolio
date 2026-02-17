@@ -26,13 +26,13 @@ const EducationSection: React.FC = () => {
               </div>
               <div className="md:ml-auto md:text-right mt-2 md:mt-0">
                 <p className="text-gray-200 font-medium text-sm md:text-base">Expected May 2027</p>
-                <p className="text-gray-200 text-sm md:text-base">GPA: 3.72</p>
+                {/* <p className="text-gray-200 text-sm md:text-base">GPA: 3.72</p> */}
               </div>
             </div>
 
             <div className="mb-4">
-              <h4 className="font-semibold flex items-center mb-2 text-white">
-                <Award className="text-[#111827] mr-1" size={18} />
+              <h4 className="font-semibold flex items-center justify-start mb-2 text-white">
+                <Award className="text-white mr-1" size={18} />
                 Honors & Achievements
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -76,7 +76,7 @@ const EducationSection: React.FC = () => {
                   Computer Organization
                 </div>
                 <div className="px-3 py-2 bg-gray-800 rounded-md border border-gray-700 text-sm">
-                  Computer Networks
+                  Digital Logic
                 </div>
                 <div className="px-3 py-2 bg-gray-800 rounded-md border border-gray-700 text-sm">
                   Discrete Structures
