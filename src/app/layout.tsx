@@ -1,16 +1,22 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Chakra_Petch, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
+const displayFont = Chakra_Petch({
+  variable: "--font-display",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["500", "600", "700"],
+});
+
+const bodyFont = IBM_Plex_Sans({
+  variable: "--font-body",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Sangamkar", // Change this to your name
-  description: "Software Engineer", // Change description
+  title: "Nikhil Sangamkar",
+  description: "Portfolio for Nikhil Sangamkar, software engineer building AI systems.",
 };
 
 export default function RootLayout({
@@ -20,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${spaceGrotesk.variable} antialiased`}
-      >
+      <body className={`${displayFont.variable} ${bodyFont.variable} antialiased`}>
         {children}
         <div id="my-modal"></div>
       </body>
